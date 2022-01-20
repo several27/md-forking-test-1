@@ -1,0 +1,29 @@
+name: fork-project
+description: User fork
+version: 1
+author: johndoe@example.org
+workflows:
+  workflows/first-workflow:
+    name: first-workflow
+    description: null
+    author: johndoe@example.org
+    mode: batch
+    language: scala
+    createdAt: '2022-01-20 14:52:56'
+    datasets:
+      inputs: []
+      outputs: []
+datasets:
+  datasets/source:
+    name: source
+    description: ''
+    author: johndoe@example.org
+    createdAt: '2022-01-20 14:57:23'
+    physicalDatasets:
+      livy:
+        fabricId: 2
+        datasetType: File
+        description: ''
+        author: johndoe@example.org
+        createdAt: '2022-01-20 14:57:23'
+schedules: {}

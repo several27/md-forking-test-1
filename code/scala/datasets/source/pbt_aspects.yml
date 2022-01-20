@@ -1,0 +1,7860 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: cmls_3ds_authntn_mthd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_cobrnd_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_srce_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_srce_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_srce_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_srce_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_srce_mvisa_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_subtyp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_subtyp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_subtyp_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_subtyp_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_fundg_subtyp_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_lvl_procg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_lvl_procg_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_lvl_procg_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_lvl_procg_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_lvl_procg_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_9
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_ext_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_in_acct_rng_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_iso_bin_new_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_iso_bin_num_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_len
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_norm_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num6
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_parm_idx_lmtd_use_key
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_parm_prev_idx_lmtd_use_key
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_prod_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_prod_id_alp_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_prod_id_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_prod_id_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_rng_regld_nonregld_sta
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_rng_svc_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_rng_tokn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_rstrctd_use_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_sel_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_sel_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_sel_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_seq_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_svc_grp_sid_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_typ_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_usage_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_usr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_usr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_usr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aci_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aci_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aci_cd_origl_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aci_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acptnc_chnl_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_bin_ntwrk_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_bin_ntwrk_id_new
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_rteg_ntwrk_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_affl_rteg_ntwrk_id_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_chrg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_chrg_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_chrg_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_aisa_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_ownr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_ownr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_ownr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_usr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_usr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bin_usr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_bus_id_tran
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cib_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cib_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cib_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cib_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_corp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cshbk_fee_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cshbk_fee_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_cshbk_fee_descr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ctn_partc_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_curr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_amt_reducn_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_def_curr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_pctg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_pgm_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_reducn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_finl_bin_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_funds_trnsfr_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_hghst_lvl_sre_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_initd_sngl_curr_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_inst_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_intl_chrg_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_intl_chrg_typ_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_intl_chrg_typ_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_intrchg_fee_amt_rcls
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_intrchg_fee_amt_sign_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ioi_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ioi_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ioi_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_desc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_isa_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ntwrk_id_criscros
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ntwrk_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_on_us_setlmt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_pcr_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_per_itm_fee
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_portn_fee_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_ref_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_regn_aisa_allocn_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_regn_isa_allocn_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_amt_convrsn_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_amt_convrsn_rt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_curr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_curr_cshbk_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_sre_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_sre_id_visa_proc_chrg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_stn_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_visa_proc_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_visa_procg_chrg_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_vss_proc_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_vss_procr_affl_bin_ntwrk_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_wrkstn_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acs_api_cl_crln_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acs_api_cltn_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acs_api_eci_moto_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acs_api_vdp_crln_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acsapi_rspvisarq_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_add_val_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_add_val_tax_rtrn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_authntn_mthd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_authntn_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_pos_info_debt_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_pos_info_debt_ind_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_pos_info_debt_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_adjmt_proc_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_advc_dest_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_advc_rec_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_afd_mrch_frd_risk_asses_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_afflnt_trvl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_afflnt_trvl_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_afflnt_trvl_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_afflnt_trvl_intnl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_affs_acqr_prtcptn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_affs_issr_prtcptn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_affs_tran_qual_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_agnt_uniq_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_depart_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_origl_city_airprt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_psngr_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_crrr_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_crrr_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_crrr_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_crrr_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_dest_city_arprt_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_dest_city_arprt_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_dest_city_arprt_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_dest_city_arprt_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_stopovr_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_stopovr_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_stopovr_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_stopovr_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_svc_cls_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_svc_cls_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_svc_cls_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trip_svc_cls_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trvl_agcy_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_airln_info_trvl_agcy_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aisa_elig_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aisa_elig_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_aisa_elig_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_catgy_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_catgy_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_catgy_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_catgy_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_subcatgy_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_subcatgy_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_subcatgy_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_svc_subcatgy_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_anclry_tkt_doc_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_intrchg_prof_byt1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_intrchg_prof_byt2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appln_tran_cntr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_argo_instalmt_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_argo_inv_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_argo_mrch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ast_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_bal_inqy_adf_vldty_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_cash_tier_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_10
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_5
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_6
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_7
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_8
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_mini_stmt_9
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_tier_lvl_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_crdh_bill_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_id_resp
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_only_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_only_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_only_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_prsnt_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_time
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_authd_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_authd_tran_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_avs_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_avs_rslt_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_avs_rslt_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b2b_acqr_fee_elg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_base_dest_curr_exch_rate
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_bilat_setlmt_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bnk_p2p_negt_rt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_cpd_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_instl_pymt_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_br_natl_reimb_fee
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_br_natl_stlmt_spcl_prch
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_natl_stlmt_spcl_prch_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_natl_stlmt_spcl_prch_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_setlmt_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_br_spec_mrch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_brdg_tran_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_brz_instalmt_cls_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_brz_instalmt_typ_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_brz_mrch_tax_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_appl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_appl_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_appl_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_fmt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_fmt_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_fmt_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_fmt_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cam_perf_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_cam_rslt_not_actd_upon_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_car_cls_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_car_rntl_chkout_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cb_swtch_acqr_chrg_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cb_swtch_acqr_chrg_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cb_swtch_chrg_billg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cb_swtch_issr_chrg_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cb_swtch_issr_chrg_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cbp_acct_parm_alrt_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cbp_appln_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cbp_chnl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cbp_dvc_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cdb_prod_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chbk_rgts_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chbk_rgts_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chbk_rgts_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chbk_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_cond_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_cond_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_cond_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_crd_fmt_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_17
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_18_32
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_4_7
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_8
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_9_16
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_tran_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_tran_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chk_sum_alg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chrgbk_ref_no
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_clnt_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_clnt_shrt_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_clrg_seq_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_clrg_seq_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cmptr_rsrvn_sys
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cnsmptn_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cnvnc_chk_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_coll_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_coll_flg_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_coll_flg_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_combo_crd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_config_ardef_prod_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cost_tran_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_cpd_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cpd_orig_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crb_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_acptr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_actvt_term_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_actvt_term_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_actvt_term_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_cpbty
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_exp_dt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_exp_dt_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_id_mthd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_id_mthd_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_id_mthd_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_maild_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_maild_from_city
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_maild_from_zip
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_maild_st
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_prodct_splt_bin
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_seq_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_typ_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_typ_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vld_from_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_authntn_mthd_prcg_elmt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_bill_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_bill_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_bill_curr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_billg_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_billg_curr_cshbk_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_billg_mvisa_curr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_residnc_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_residnc_from_bin
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_residnc_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_tran_amt_lmt
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_crdt_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdt_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdt_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_criss_cros_acqr_msg_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_criss_cros_acqr_msg_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_criss_cros_acqr_msg_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_criss_cros_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_amt
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_ver
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_ver_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crs_proc_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crs_rtrn_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_tran_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ctn_trans_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_curr_conv_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_custm_prcg_agmt_schd_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_custm_prodct_grp_prcg_elmt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_custmr_vat_rgstrn_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_custmr_vehl_refnc_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cut_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cvv2_convrsn_perfd_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_cvv2_vrfcn_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encdg_fmt_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_algm_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_key_mgmt_schm_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_mod10_sgnl_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_tran_flg_non_vfpe
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_vfpe_sgnl_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_vfpe_sgnl_flg_missg_expirn_dt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_data_encrptn_zone_key_idx
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dcc_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dcvv_perf_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dcvv2_genrtn_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dcvv2_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_mpos_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_mvisa_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_nfc_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_tkn_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_vco_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ddpe_vd_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_derv_key_idx
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_new
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_origl_rcls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_regn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_bin_zone_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_cib_vic
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_irf_fee_amt_sc_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_irf_fee_amt_usd_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_rcvd_reqst_advc_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_rcvd_reqst_advc_origl_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_setlmt_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_setlmt_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_setlmt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_setlmt_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_setlmt_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dest_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_destn_cib_regn
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_destn_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_destn_pcr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_detoknztn_callout_perfd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfcfid_dest_procg_chrg_in_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dfcfid_dest_procg_chrg_in_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dfcfid_srce_procg_chrg_in_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dfcfid_srce_procg_chrg_in_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dfcfid_visa_procg_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_billg_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_crdh_bill_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_finl_inst_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_issr_ntwrk_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_ntwrk_chrg_acqr_sre_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_ntwrk_chrg_issr_sre_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_ntwrk_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_ntwrk_prem_issd_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_ntwrk_secrty_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_pcr_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_prtcptn_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_pseudo_aba
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_pseudo_term_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_tran_typ_proc_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dg_tran_xcpt_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dgtl_cmrc_pgm_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_diffrntl_acct_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dly_rntl_rt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dmstc_chrgbk_rsn_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dmstc_tran_not_from_secy_endpt_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dngrd_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dngrd_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dngrd_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_doc_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dsput_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dsput_tran_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dsput_tran_cd_qflr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dtvv_tran_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dvc_id_velcy_cnt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dvc_prvsng_dvc_locn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dvc_prvsng_fundg_acct_num_srce
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dvc_prvsng_ip_addr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dvc_prvsng_lang_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_cd_orig_rcls_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_cd_rsn_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecip_featr_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecip_featr_suppd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecip_suppd_featr_reqstd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecom_goods_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecom_iaf_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ecom_iaf_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ecom_iaf_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_acct_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_acqr_fee_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_acqr_irf_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_acqr_irf_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_acqr_sc_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_billg_on_us_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_chbk_tran_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cms_source
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cpd_mnth_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cpd_orig_mnth_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_crdh_bill_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_crdtv_tran_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cshbk_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cshbk_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_cshbk_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_data_encrptn_algm_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_data_encrptn_key_mgmt_schm_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_data_encrptn_zone_key_idx
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_dest_irf_fee_amt_sc_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_dest_irf_fee_amt_usd_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_dest_sc_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_gmr_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_issr_fee_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_issr_irf_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_issr_irf_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_issr_sc_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mat_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mat_latitude
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mat_longitude
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mat_match_rule
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mat_rule_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_ctry_alpha_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_doc_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_doc_id_locn_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_city
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_phone_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_rule_catg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_rule_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_st_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_geo_zip_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_msa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_mrch_short_city_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_natl_setlmt_ctry_cd_num_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_prc_elmt_durbin_exmpt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_prch_mnth_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_rprsnmt_tran_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_setlmt_mnth_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srce_irf_fee_amt_sc_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srce_irf_fee_amt_usd_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srce_sc_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srchg_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srchg_amt_crdh_bill_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srchg_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srchg_sign_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_srchrg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tran_bnd_id_flr_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tran_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tran_us_amt_bnd_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_trnsmn_dt_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tvr_1_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tvr_2_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tvr_3_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tvr_4_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_tvr_5_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_us_nonus_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edw_wlt_provr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_elapse_band_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_elapse_days_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_elapse_days_irf
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_emv_tran_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_estbl_flflmt_mthd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_excl_tran_id_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expnd_cvr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_fuel_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_1_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_1_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_2_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_2_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_3_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_3_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_4_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_4_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_5
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_5_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_5_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_6
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_6_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_6_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_7
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_7_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_7_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_8
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_8_qty
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_expndd_non_fuel_prodct_cd_8_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_exprt_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_exprt_flg_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_exprt_flg_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_extra_chrgs
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fallbk_cvv2_vldtn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fare_basis_cd_leg_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fare_basis_cd_leg_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fare_basis_cd_leg_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fare_basis_cd_leg_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_chrg_cdc_desc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_descr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_diff_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_addl_data_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_ind_rcls_rsn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_ind_rsn_cd_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_ind_setlmt_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_ind_submt_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_rcls_rsn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_rsn_cd_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_feecoll_evt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_feecoll_from_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_feecoll_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_feecoll_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_file_colln_end_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_file_colln_end_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_file_colln_strt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_file_colln_strt_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_file_upd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flr_lmt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flr_lmt_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flr_lmt_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_elig_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_fee_curr_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_fee_pctg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_fxd_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_max_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_min_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_rt_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_food_bvrge_chrg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_form_fctr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_form_fctr_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_arst_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_cshbk_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_invstgtv_sta
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_locr_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_ntfn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_typ_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_typ_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_val_band_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_vic_proc_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_vrol_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_freq_zip_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fuel_chrgs
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_fuel_qty
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_fuel_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_giv_updd_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_gmr_vmid
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_gmr_vsid
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_gr_fuel_prc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_gr_non_fuel_prc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_chrg_ind_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_elig_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_elig_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_elig_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_pct_mrch_regn_allocn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_pct_mrch_regn_allocn_in_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_srchg_ind_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_unit_mrch_regn_allocn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_iaf_unit_mrch_regn_allocn_in_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ics_nri_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_icvv_convrsn_perfd_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_incrct_atm_rteg_tbl_uniq_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_info_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_amt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_freq_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_optn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pln_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_intrst_amt_acqr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_intrst_amt_acqr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_intrst_amt_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_intrst_amt_issr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_intrst_amt_issr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_irf_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_amt_acqr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_amt_acqr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_amt_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_amt_issr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_amt_issr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_risk_fee_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pmt_setlmt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pymt_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pymt_cnt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pymt_num_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instl_pymt_cnt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_insurnc_chrgs
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_intl_bnk_acct_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intl_bnk_acct_num_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intl_fee_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intl_fee_ind_origl_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intnl_svc_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchg_fee_acqr_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchg_fee_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchg_fee_amt_sign
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchg_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchng_diff_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_intrchng_diff_chrg_typ_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ip_addr_velcy_cnt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_irf_desc_setlmt_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_irf_desc_submt_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_chrg_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_diff_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_diff_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_elig_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_elig_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_elig_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_isa_redrctn_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_bin
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_f102_acct_id_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_f5_dest_setlmt_amt_convrsn_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issd_in_cnctn_with_tkt_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issg_inst_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_bin_ntwrk_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_bin_ntwrk_id_new
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_rteg_ntwrk_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_affl_rteg_ntwrk_id_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_drvd_new
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_ownr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_ownr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_ownr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_chrg_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_chrg_flg_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_chrg_flg_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cib_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cib_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cib_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cib_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cntrl_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_corp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cshbk_fee_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cshbk_fee_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_cshbk_fee_descr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctn_partc_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_dflt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_dflt_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_dflt_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_curr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_amt_reducn_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_def_curr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_pctg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_pgm_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_reducn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_schd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_finl_bin_new
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_finl_bin_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_funds_trnsfr_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_genrtd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_hghst_lvl_sre_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_desc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_isa_amt_crdh_billg_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ntwrk_id_criscros
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ntwrk_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_on_us_setlmt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_optnl_fee_amt_crdh_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_pcr_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_per_itm_fee
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_portn_fee_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_procr_affl_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_isa_allocn_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_isa_allocn_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_sec_allocn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_sec_allocn_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_regn_sec_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rfc_bin_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rfc_vcrfs_vdas_bin
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rfc_vcrfs_vdas_bin_new
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rgn_mult_curr_setlmt_allocn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rgn_mult_curr_setlmt_allocn_in_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rgn_mult_curr_setlmt_allocn_in_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_rtg_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_scrpt_rslt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_amt_convrsn_rt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_curr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_sre_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_sre_id_visa_proc_chrg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_stn_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ttl_isa_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ttl_isa_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ttl_isa_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_visa_proc_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_visa_procg_chrg_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_vss_proc_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_wrkstn_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_acqr_inv_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_bonus_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_bonus_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_bonus_mnth_sign
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_bonus_pymt_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_chrgbk_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_instalmt_pymt_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_mrch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_mrch_nm_knj
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_mrch_nm_ktk
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_msg_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_net_gr_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_net_sales_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_pymt_mode
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_sales_drft_refnc_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_jp_tax_mail_chrg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_jrsdctn_based_dscnt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_kyc_mixed_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_kyc_mixed_mvisa_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_l2_data_qual_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lac_ppd_natl_pgm_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lac_ppd_natl_pgm_id_txt_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_sls_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_sls_tax_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_sls_tax_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_sls_tax_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_sls_tax_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_tran_tm_hhmmss
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcs_advc_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_leaf_lvl_sre_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_lmt_of_num_rslt_rtrnd_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_loan_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lodg_chkin_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lodg_dly_room_rt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_lodg_folio_csh_advn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_max_num_of_days_can_dfrd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_calc_irf_acqr_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_calc_irf_acqr_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_calcd_irf
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_msg_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_submtd_authn_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mbr_submtd_authn_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_acqr_regn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_issr_regn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_convrsn_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_misc_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_misc_fuel_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_misc_fuel_tax_exmpt_sta_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_misc_non_fuel_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_misc_non_fuel_tax_exmpt_sta_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mkt_seg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mkt_spec_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mkt_spec_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mkt_spec_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mmap_qlfd_tran_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_acct_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_xfr_fgn_exchg_fee_tran_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_catg_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_catg_cd_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_catg_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_city
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_cond_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_cond_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_cond_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_ctry_alpha
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_ctry_alpha_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_ctry_alpha_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_ctry_cd_num_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_dba_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_flr_lmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_flr_lmt_curr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_grp_b2_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_jrsdctn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_msa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_nm_dscrptr_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_nm_lcl_lang
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_nm_prsd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_nrmlzd_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_pan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_pgm_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_phone_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_pstl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_aisa_allocn_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_sec_allocn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_sec_allocn_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_regn_sec_allocn_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_rule_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_rule_set_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_st_prov_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_st_prov_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_st_prov_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_st_prov_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_stor_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_tax_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_tax_id_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_vat_rgstr_or_sbrn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_vol_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_vol_ind_rcls_rsn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_vol_ind_rsn_cd_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_zip_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_zone_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_mrn_refnc_bin
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_cls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_fmt_dngrd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_fmt_upgrd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_rsn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mtc_cdb_city_mtch_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mtc_cdb_ctry_mtch_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mtc_cdb_home_base_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mtc_cdb_pstl_cd_mtch_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mtc_cdb_st_mtch_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mult_curr_setlmt_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mult_curr_setlmt_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mult_curr_setlmt_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_multi_curr_procg_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_multi_regn_mbr_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_multinatl_acqr_pgm_ctry_cd_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_multpl_clrg_seq_cnt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_multpl_clrg_seq_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_agmt_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_dba_complnc_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_grp_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_irf_per_itm_dscnt_rt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_mrch_asgnd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_pgm_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_visa_asgnd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_visa_asgnd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mvv_visa_asgnd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_cptr_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_mrch_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_dmstc_tokn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_impct_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_instl_pymt_int
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_instl_pymt_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_irf_calcn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_oth_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_oth_amt_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_sales_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_tax_irf
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_vat_for_instl_pymt_int
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_refnc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_rsn_colln_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_setlmt_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_tax_incld
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_net_fuel_prc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_net_non_fuel_prc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nirf_dscnt_acqr_issr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nirf_dscnt_rt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nnss_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_no_show_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_no_srchg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_not_authd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nspk_fallbk_procg_rsn_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_nspk_sms_fallbk_procg_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_id_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_id_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_mgmt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_prcg_elmt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_secrty_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_secrty_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_secrty_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_secrty_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_setlmt_amt
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_setlmt_cc_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_setlmt_curr_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_strctr_asesmt_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_strctr_asesmt_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_strctr_asesmt_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_strctr_asesmt_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_strctr_asesmt_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_num_days_rntd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_num_of_pymt_forms
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nyce_issr_intrchg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nyce_issr_intrchg_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nyce_issr_intrchg_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_oct_to_mrt_dngrd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_odmtr_readg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ofac_score
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_on_us_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_oneway_dropoff_chrgs
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_optn_isa_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_orig_dest_cib
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_orig_srce_cib
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_orig_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_orig_tran_curr_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_btch_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_btch_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_tran_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_msg_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_origl_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_procg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_replmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_replmt_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_origtr_submtd_reqst_advc_tran_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_oth_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_pcas_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_swtch_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_swtch_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_swtch_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_swtch_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_pdg_pless_pos_swtch_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_chk_aba_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_chk_acct_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_chk_chk_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_chk_occurs
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_env_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_env_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_env_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pos_web_trvl_agcy_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_poscond_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_poscond_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_poscond_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posentry_cpbty_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posentry_mode_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posentry_mode_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posentry_mode_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posentry_mode_data
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_cpbty_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_cpbty_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_cpbty_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_typ_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_posterm_typ_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ppcs_srce_of_upd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ppcs_tran_eligty_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ppd_crd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ppd_expns_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ppd_sub_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prcg_mrch_typ_grp_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_dt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_id_fmt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_tm_hhmmss
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prev_tran_cshbk_fee_descr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_priv_intra_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_from_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_from_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_from_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_to_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_to_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_acct_typ_to_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_tran_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_tran_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_tran_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proc_vic
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_brnd_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_brnd_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_5
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_6
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_7
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_cd_8
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_cls_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_cls_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_mvisa_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_mvisa_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_num_alp_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_pltfrm_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_pltfrm_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_schm_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_schm_mvisa_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_subtyp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_subtyp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_subtyp_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_subtyp_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_id_subtyp_mvisa_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_num_alp_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_sub_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_typ_ext
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prod_typ_ext_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prodct_qlfr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prodct_rclsfn_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_promo_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_promo_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_promo_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_proptry_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pv_cash_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pymt_acct_refnc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pymt_faciltr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pymt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_raw_authd_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_rclsfn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rclsfy_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reimb_attr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reimb_attr_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reimb_attr_origl_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reimb_attr_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_replmt_pan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_replmt_pan_expiry_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_cps
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_cps_rsn_cd_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_msg_dest_stn_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_msg_srce_stn_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_msg_typ_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqst_msg_typ_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqstd_flflmt_mthd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_msg_typ_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_resp_msg_typ_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rfc_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rfc_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rfc_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rfs_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ris_cond_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ris_cond_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ris_cond_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rntr_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_room_nights
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_jrsdctn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_jrsdctn_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_jrsdctn_prcg_elmt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_jrsdctn_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rsi_audt_cntl_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_rsi_log_tm
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_rsi_mrch_xbrdr_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rstrctd_tkt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_tbl_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_vau_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_vau_sta_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_vau_tran_non_qlfd_rsn_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_vau_tran_non_qlfd_rsn_cd_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rt_vau_tran_qlfd_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_rte_tier_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtm_clrg_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_5
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrn_rsn_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrvl_ref_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrvl_req_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rvrsl_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rvrsl_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rvrsl_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rwrd_pgm_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rwrd_pgm_id_alp_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_scs_vrfcn_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sds_acct_rng_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_setld_acct_prodct_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setld_spnd_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_amt_sgn_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_inst_id_cd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_ct_off_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_final_posn_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_setlmt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_setlmt_posn_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_setlmt_posn_sgn_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_setlmt_svc_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_posn_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_svc_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_settled_reqst_pymt_srv_cd_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_side1_corp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_side1_tran_ssid
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_side2_corp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_side2_tran_ssid
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sml_tkt_excptn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_cas_proc_setlmt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_crd_auth_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_mis_proc_setlmt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_origl_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_preauth_time_lmt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_tgt_file_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sndr_ref_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_atm_fee_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_chrgbk_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_chrgbk_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_chrgbk_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_prc_elmt_mrch_typ_grp_no_mvv_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spnd_asesmt_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spnd_qlfd_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spnd_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spnd_qlfd_ind_rcls_rsn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_amt_issr_ctry_dflt_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_base_curr_exch_rate
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_bus_id_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_bus_id_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_new
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_origl_rcls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_regn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_bin_zone_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_btch_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_btch_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_bus_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_ctry_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_enr
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_regn
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_cib_vic
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_fee_diffrntl_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_irf_fee_amt_sc_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_irf_fee_amt_usd_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_of_funds_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_of_funds_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_of_funds_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_of_tran_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_pcr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_setlmt_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_setlmt_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_setlmt_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_setlmt_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_setlmt_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srce_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_amt_crdh_bill_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_amt_visa_calc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_amt_visa_calc_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_cr_db_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_tran_cnt_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ssbc_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ssbc_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ssbc_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_st_chbk_spcl_cond_mrch
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_advc_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_advc_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_advc_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_swtch_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_swtch_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stip_swtch_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_stop_pymt_reqst_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_strt_with_itm_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sub_mrch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_submtd_acct_prod_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_submtd_aci_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_submtd_authn_charstc_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_submtd_tran_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_summ_cmdty_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_suspected_frd_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_svc_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_svc_dev
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_svc_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_swtch_fee_billg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sys_srce_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sys_srce_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tax_on_irf_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tax_on_irf_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tax_on_irf_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tax_on_irf_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tax_on_irf_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tb_dcvv2_issr_bin_resp_opt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tb_dcvv2_val_prsnt_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tb_dcvv2_vldtn_perfd_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tcq_of_finl_tran_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tcr_num_origl_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tcre_rcvd_dropd_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_term_cpbty_prof_byt1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_cpbty_prof_byt2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_cpbty_prof_byt3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_tran_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_vrfcn_rslts
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_terml_authntn_cpbty_prcg_elmt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_terml_ser_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tif_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tif_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tif_byps_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tif_chrg_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tif_rcls_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tip_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tkt_chg_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tkt_chg_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tkt_chg_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tkt_size_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tm_lmt_for_rslt_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_asrnc_lvl
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_cls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_crptgm_3ds_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_expirn_dt_yyyymm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_prtcptn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_reqstr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_reqstr_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_reqstr_id_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_reqstr_id_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_reqstr_svc_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_rng_prodct_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_to_pan_in_trk2_data_replmt_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_trans_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_typ_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_typ_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tot_auth_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cd_orig_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cd_qlfr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cd_qlfr_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cd_qlfr_origl_rcls
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_cls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_curr_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_curr_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_drctn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_drctn_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_drctn_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_drctn_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_eur_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_exp_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_gbp_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_id_gmt_dt_yyyymmdd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_id_gmt_tm_hhmmss_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_id_lcl_dt_yyyymmdd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_id_lcl_tm_hhmmss_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_procg_fee_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_seq_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_srce_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_sub_cls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_trc_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trip_flt_num_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trip_flt_num_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trip_flt_num_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trip_flt_num_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trnsmn_dt_mmdd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trnsmn_tm_hhmmss
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trvl_agcy_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tsp_bid
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tsp_tokn_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ttl_cumtv_authd_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ttl_instalmt_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ttl_room_tax_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ttl_tax
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_two_stg_wllt_irf_qual_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_txt_alrt_to_crdh_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_txt_alrt_to_crdh_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_txt_alrt_to_crdh_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_uk_comprd_addr_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_uniq_seq_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_unit_cost
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_unit_of_meas_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_unprdictbl_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_us_leg_regld_issr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_us_leg_regld_issr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_us_leg_regld_tran_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_usage_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_usage_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_usage_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_use_prior_days_rt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vasp_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_intrst_amt_acqr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_intrst_amt_acqr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_intrst_amt_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_intrst_amt_issr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_intrst_amt_issr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_amt_acqr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_amt_acqr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_amt_chrg_typ_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_amt_issr_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_amt_issr_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_instalmt_pmt_risk_fee_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_rate
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vau_convrsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vau_ppcs_upd_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vau_seg_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vau_srce_of_upd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vau_svc_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcis_acct_xbrdr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcis_acqr_issr_jrsdctn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcis_jrsdctn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcis_mrch_xbrdr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_auth_date_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_auth_time_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_avs_rslt_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_dsput_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_finl_id_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_finl_sta_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_gmr_id_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_rec_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_tran_id_whse_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_visa_mrch_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_vrol_fraud_rpt_date_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcr_vrol_fraud_rpt_time_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_acqr_finl_bin
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_acqr_finl_bin_new
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_data_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_dest_rte_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_dest_sub_addr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_end_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_invld_data_flgs
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_issr_rfc_sub_addr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_non_flflmt_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_reqst_doc_mthd_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_reqst_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rte_tier_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rtrn_reqst_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rtrvl_reqst_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rtrvl_reqst_rsn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rtrvl_reqst_rsn_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_rulg_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_secy_advc_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_srce_rte_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_srce_sub_addr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vcrfs_vdas_usr_defd_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vctc_elig_tran_ind_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vd_oct_tran_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vd_push_pull_drctn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vd_push_pull_typ_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdas_drft_tran_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdp_api_apln_dvr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdp_api_typ_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_acqr_procg_intgrty_cert_sta
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_cba_dp_cand_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_cba_dp_cndcy_failr_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_cba_dp_qlfd_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_cs_jrsdctn_cd_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_issr_procg_intgrty_cert_sta
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_mbr_intgrtn_sta
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_ppl_comm_rate_typ
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_ppl_comm_rate_val
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_pymt_stop_svc_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_pymt_stop_svc_stop_reqst_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_tokn_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_toknzd_resp_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_tran_id_logng_rsn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vecss_ep_val_fld_upd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_dt_cncld
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_end_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_exact_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_max_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_min_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_strt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_stop_reqst_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_subscrb_acct_rng_max
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vepss_subscrb_acct_rng_min
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_vsm_resp_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vevi_stop_pymt_reqst_id_drvd
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_vic
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vip_derv_acqr_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vip_dmstc_jrsdctn_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vip_rsi_msg_catgy
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_visa_drct_enty_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_visa_mrch_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vldtn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vmp_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vmp_flg_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vpp_procg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_acqr_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_bundl_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_crdh_ntfn_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_cond
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_cond_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_cond_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_sta
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_sta_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dsput_sta_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_dt_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_finl_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_issr_case_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vss_bus_tran_cycl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vss_bus_tran_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vta_ec_mrch_risk_cond_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vta_ec_mrch_risk_score_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vta_ec_mrch_risk_snt_to_acqr_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vts_qrc_tran_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_wkly_rntl_rt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_wlt_provr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_wlt_provr_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_wlt_provr_id_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_wlt_provr_id_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_xbrdr_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_xbrdr_ind_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_xbrdr_ind_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: uniq_seq_id_drvd_new
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acdb_pickup_resp_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_actn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_bin_regn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cdb_item_prge_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rec_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crb_regns
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_spnd_amt_lmt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_crdh_spnd_cnt_lmt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ioi_sa_srce_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_run_date
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_us_cdi_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_gmr_rule_id_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_setlmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_pgm_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_wndw_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_tcr_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_qlfr_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tcr_num_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_curr_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ft_sre
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_convrsn_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_amt_of_instalmt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_amt_of_instalmts_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_amt_of_instalmts_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_amt_of_instalmts_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_prd_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_prd_id_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_prd_id_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_prd_id_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_prd_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_setlmt_dt_of_orig
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dmstc_ec_tool_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_each_instalmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_grc_prd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_grc_prd_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intrst_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_promo_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_no_of_instalmt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sale_typ_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_simltn_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_rt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_rt_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_rt_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_rt_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_typ_of_instalmt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_cpbty
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_mail_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_mail_from_city
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_mail_from_zip
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_mail_st_prov
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_vld_from
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_addr1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_addr2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_city
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_first_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_last_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_mdl_init
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_phone
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_ssn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_st_prov
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_zip_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_forms_data_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_resp_cd_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_bin_len
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_setlmt_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_setlmt_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_tran_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cshbk_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_srchg_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_can_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_req_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_resp_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_msg_cls
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_intrst_rt_1
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_vat_rate_1
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_flxbl_cmsn_fee_atypcl_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mis_acqr_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cas_issr_pcr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_clnt_supld_irf
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_instl_pymt_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_smrtr_stip_recmndn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_smrtr_stip_actn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_smrtr_stip_callout_durn
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_smrtr_stip_callout_sta_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_smrtr_stip_callout_trc_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_pgm_cd_from_orig
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_irf_desc_from_orig
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_pgm_cd_from_orig
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_irf_desc_from_orig
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_p2mp_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_crd_stat_upd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_appl_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_cas_affl_lgl_ctry_cd_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_cas_affl_lgl_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_cas_affl_mstr_procgid_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_mis_affl_lgl_ctry_cd_drvd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_mis_affl_lgl_regn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_mis_affl_mstr_procgid_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sca_trustd_mrch_exmptn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_16_drvd_encrypt_pan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_file_upd_err_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_frd_crd_vld_from_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_frd_src_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cs_uniq_seq_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_issr_bin_ctry_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_bus_appl_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_orig_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdps_issr_bin_migr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addl_trc_data_iso
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cmcrd_enh_mrch_sector
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcs_act_tst_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_inq_ctr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_dest_appl_proc
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_xcpt_chrg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_auth_srce_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ioi_sa_srce_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_rte_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pin_tran_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_acqr_bin_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pin_vrfcn_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_chbk_rsn_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_srce_amt_usd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_vrfcn_val
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_partial_auth_ind
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vdps_acqr_bin_migr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_coll_from_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_stop_ord_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_cs_jrsdctn_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_last_four_dgts_acct_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_delgtd_authntn_2nd_mthd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vmid_from_gmr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_trustd_mrch_upd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_enrch_crd_exp_dt_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_setlmt_wndw_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rptg_ss_ids_5
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cs_vrol_uniq_seq_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_procd_as_cross_vic
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_log_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_in_ctry_procg_for_acqr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_in_ctry_procg_for_issr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_clrg_tran_uniq_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_lcl_procg_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ctry_lcl_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_addl_trc_data_iso_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_msg_resp_snt_ts
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdps_acqr_bin_migr_id_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vdps_issr_bin_migr_id_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mx_irf_catg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_acct_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_freq_of_pymt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_grace_period
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_irf_catg_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_irf_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_mrch_fiscal_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_num_of_instl_pymt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_dfrd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_grc_prd_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_ttl_instalmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_each_instalmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_natl_net_irf
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_natl_net_tax_irf
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_chl_nn_instl_pymt_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_grc_prd_flg_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_each_instalmt_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_irf_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_natl_net_tax_irf_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_instl_pymt_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_xml_idntfr_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_atm_bus_qual
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_pgm_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_tran_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mis_cas_rsn_cd_4
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_orig_msg_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cba_batch_disp
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_sys_err_rej_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_curr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vip_derv_issr_sre_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_intgr_crct_card_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_orig_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_adv_trans_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_edt_pck_prms_nspk_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_epay_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mkt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_reqstd_destn
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ve_rec_typ_cd_nspk_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cavv_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nspkau_uniq_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nspkcs_uniq_id_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tc33_advc_cd_src_nspk_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tc33_advc_cd_dest_nspk_raw
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vlpr_prtflo_id
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_trc_num
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_trnsmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_trnsmt_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vrol_ntwrk_id_alpha
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pymt_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ttl_instalmt_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_instalmt_pymt_curr_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_first_instalmt_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_pgm_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_cvv_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tran_typ_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_amt_raw
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_rtrvl_ref_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_norm_drvd_encrypt_pan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_addr1_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_addr2_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_city_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_first_nm_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crdhldr_last_nm_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_univ_apf_file_nm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sav_billg_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fgn_rtlr_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fgn_rtlr_ind_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_end_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_crtn_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_cncln_dt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_prev_stop_pymt_reqst_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_origl_chnl
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_rslt_msg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_resp_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_resp_desc
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_incl_cncld_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_ttl_stop_instrn_num
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_coreln_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_last_upd_chnl
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ppcs_tid
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_one_tm_stop_flg
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_stop_instrn_typ
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_crtn_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_cncln_tm
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_api_cd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_dt_efu_appld
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tm_efu_appld
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_crtn_dt_tm_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_cncln_dt_tm_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dt_tm_efu_appld_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_rate_tbl_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_push_to_acct_tran_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_push_pymt_typ_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_visa_genrtd_cvv_rslt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_extendd_stip_rsn_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fleet_empe_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fleet_trlr_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fleet_addnl_prmptd_data_1
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_fleet_addnl_prmptd_data_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_prch_rstrctn_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_onln_chip_bsd_prch_rstrctn_txt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tr_tsp_id
+    type: long
+    nullable: true
+    metadata: {}
+  - name: cmls_dfrd_oct_reqst_typ_for_vip
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pfx_rt_provr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pfx_exchg_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_pfx_elig_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pfx_appld_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pln_ownr_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_annl_ttl_cost_fing_instl_pymt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_basis_pt_appld_by_law
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_tax_benfit_law_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_fisc_benfit_rtentn_agnt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_tax_benfit_ttl_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_inv_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_promo_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_mrch_tax_id_tax_benfit_law
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_recurg_pymt_crdh_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_tax_benfit_calcn_base_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_mrch_inv_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_flr_lmt_appl_tax_benfit_law
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_mrch_inv_ser_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_free_txt_for_rcpt
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_ord_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_crdh_dfrd_prd
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ecb_fx_rt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecb_fx_rt_data_qlfd_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ecb_fx_rt
+    type: integer
+    nullable: true
+    metadata: {}
+  - name: cmls_ecb_rt_provr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_exp_dt_drvd_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_exp_dt_raw_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_endpt_id_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_rcpnt_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_refnc_id_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_addr_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_city_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_ctry_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_dob_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_st_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_sndr_uniq_id_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_srce_of_funds_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_xfr_fgn_exchg_fee_chb_curr
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_ctry_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_first_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_last_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_mid_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_st_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_sndr_first_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_sndr_last_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_sndr_mid_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_pan_encrypt_pan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_ctry_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vsps_recurg_or_instalmt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_sndr_mid_expnd_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mc_mony_snd_rcvr_mid_expnd_nm_encrypt_nonpan
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_procg_qlfcn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dcc_perfd_on_inelig_prof_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dcc_perfd_on_inelig_tran_flg
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b2b_pgm_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_risk_score
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_onln_chip_bsd_prch_rstrctn
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_nn_basis_pt_appld_by_law_raw
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_dtvv_rslt_snt_to_issr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_pln_ownr_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_luk_elapsd_tm
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_luk_acum_tran_cnt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_luk_acum_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_mony_trnsfr_rcpnt_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cnp_iaf_mrch_alloc_chrg_typ_cd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cnp_iaf_mrch_alloc_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cnp_iaf_eligty_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cnp_iaf_chrg_ind_typ
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_visa_instalmt_pln_rgstrn_sys_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_acqg_lic_chrg_typ_cd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_acqg_lic_acqr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_acqg_lic_acqr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_acqg_lic_issr_chrg_amt_ssbc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_ntwrk_acqg_lic_issr_chrg_amt_sc
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cmrcl_chce_pgm_agmt_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_ntwrk_mgmt_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_sms_posentry_mode_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_giv_upd_flg
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_cam_rlblty_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_cvv2_auth_req
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_fee_pgm_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_fee_pgm_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_intrchg_prof
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vrfcn_rslts
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_ctry_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_ser_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_cpbty_prof
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_tran_cntr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_unprdctbl_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_chip_iad_byte_3
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_form_factor_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_scrpt_rslt_b2
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_flr_lmt_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_spcl_cond_ris_mrch_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_tran_amt
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_b1advc_natl_pos_geo_data
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_st_geo_st_cd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_acqr_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_frwdg_inst_id
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_appl_intrchg_prof_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vrfcn_rslts_byte1_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vrfcn_rslts_byte2_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vrfcn_rslts_byte3_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_vrfcn_rslts_byte4_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_amt_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_crptgm_ver_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_issr_scrpt_rslt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_terml_tran_dt_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_term_cpbty_prof_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tvr_byte_1_val_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tvr_byte_2_val_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tvr_byte_3_val_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tvr_byte_4_val_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tvr_byte_5_val_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_unprdictbl_num_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_vic_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_acqr_rtg_bin_usr_bus_id_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_acct_num_iso_bin_len_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_fee_dest_rte_desc_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_eci_moto_grp_cd_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_st_cd_num
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_mrch_zip_cd_full_drvd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_iso_tran_amt_usd_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_cvv2_vrfcn_rslt_cd_ri
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_cvv2_vrfcn_rslt_cd_enr
+    type: string
+    nullable: true
+    metadata: {}
+  - name: data_hour
+    type: string
+    nullable: true
+    metadata: {}
+  - name: data_center
+    type: string
+    nullable: true
+    metadata: {}
+  - name: data_stream
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_origl_tokn_asrnc_mthd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tokn_asrnc_mthd
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_dmstc_tokn_ind
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_tr_tsp_id_drvd
+    type: double
+    nullable: true
+    metadata: {}
+  - name: cmls_addnl_tokn_resp_info
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cmls_crd_prsnt_ind
+    type: double
+    nullable: true
+    metadata: {}
+  - name: bucket
+    type: string
+    nullable: true
+    metadata: {}
+  - name: cut_no
+    type: integer
+    nullable: true
+    metadata: {}
