@@ -62,7 +62,7 @@
         "label" : "Reformat_2",
         "slug" : "Reformat_2",
         "x" : 750,
-        "y" : 338,
+        "y" : 100,
         "language" : "scala",
         "phase" : 0
       },
@@ -13836,8 +13836,8 @@
       "metadata" : {
         "label" : "Reformat_4",
         "slug" : "Reformat_4",
-        "x" : 1198.5,
-        "y" : 251,
+        "x" : 1200.5,
+        "y" : 402,
         "language" : "scala",
         "phase" : 0
       },
@@ -13886,8 +13886,8 @@
       "metadata" : {
         "label" : "Reformat_1",
         "slug" : "Reformat_1",
-        "x" : 546,
-        "y" : 219,
+        "x" : 547,
+        "y" : 107,
         "language" : "scala",
         "phase" : 0
       },
@@ -27662,7 +27662,7 @@
         "label" : "SubGraph_1",
         "slug" : "SubGraph_1",
         "x" : 959,
-        "y" : 195,
+        "y" : 315,
         "language" : "scala",
         "phase" : 0
       },
