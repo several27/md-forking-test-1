@@ -13,6 +13,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/new-workflow:
+    name: new-workflow
+    description: null
+    author: johndoe@example.org
+    mode: batch
+    language: scala
+    createdAt: '2022-01-20 23:02:56'
+    datasets:
+      inputs: []
+      outputs: []
 datasets:
   datasets/source:
     name: source
@@ -26,4 +36,16 @@ datasets:
         description: ''
         author: johndoe@example.org
         createdAt: '2022-01-20 14:57:23'
+  datasets/tcmls_edwcs_b2smsdrf_dtl:
+    name: tcmls_edwcs_b2smsdrf_dtl
+    description: ''
+    author: johndoe@example.org
+    createdAt: '2022-01-20 23:03:57'
+    physicalDatasets:
+      livy:
+        fabricId: 2
+        datasetType: File
+        description: ''
+        author: johndoe@example.org
+        createdAt: '2022-01-20 23:03:57'
 schedules: {}
