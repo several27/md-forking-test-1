@@ -35,6 +35,12 @@
     "sourcePort" : "8118",
     "target" : "Reformat_51879",
     "targetPort" : "60532"
+  }, {
+    "id" : "719",
+    "source" : "Source_31940",
+    "sourcePort" : "8118",
+    "target" : "Filter_73416",
+    "targetPort" : "48317"
   } ],
   "processes" : {
     "Reformat_51879" : {
@@ -62,6 +68,36 @@
       "properties" : {
         "columnsSelector" : [ ],
         "expressions" : [ ]
+      }
+    },
+    "Filter_73416" : {
+      "id" : "Filter_73416",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_X",
+        "slug" : "Filter_X",
+        "x" : 477.75,
+        "y" : 362.25,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "48317",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "74397",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
       }
     },
     "Source_31940" : {
